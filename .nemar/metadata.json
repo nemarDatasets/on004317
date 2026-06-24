@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Mood Manipulation and PST, Experiment 2",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 50 healthy control participants performing a reinforcement learning task under two mood conditions: sad mood manipulation (n=25) and happy mood manipulation (n=25). The task includes training and testing phases with mood induction occurring before each training block. Data were collected between 2019-2021 at the Cognitive Rhythms and Computation Lab at the University of New Mexico. PST refers to the probabilistic selection task used in this experiment.",
-  "methods_description": "Reinforcement learning task with mood manipulation (sad vs. happy conditions) administered before training blocks. Task adapted from Daw et al. (2006, Science 312:1674-1677, DOI: 10.1126/science.1102941). Mood induction occurred prior to each training block, with separate training and testing sections. Task implemented in MATLAB.",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 50 healthy control participants performing a reinforcement learning task under two mood conditions (sad and happy mood manipulation). The study examines how affective state influences learning and decision-making processes, with data collected between 2019-2021. The task includes distinct training and testing phases, with mood manipulation administered prior to each training block.",
+  "methods_description": "EEG data were collected from 50 healthy controls (25 following sad mood manipulation, 25 following happy mood manipulation) during a reinforcement learning task adapted from Daw et al. (2006). The task included training and testing sections with mood manipulation administered before each training block. Data collection occurred at the Cognitive Rhythms and Computation Lab at the University of New Mexico between 2019-2021.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,10 +21,10 @@
       "term": "mood manipulation"
     },
     {
-      "term": "mood induction"
+      "term": "decision-making"
     },
     {
-      "term": "decision making"
+      "term": "affective neuroscience"
     },
     {
       "term": "cognitive control"
@@ -36,7 +36,16 @@
       "term": "affect"
     },
     {
-      "term": "probabilistic selection task"
+      "term": "healthy controls"
+    },
+    {
+      "term": "task-based EEG"
+    },
+    {
+      "term": "learning"
+    },
+    {
+      "term": "Probabilistic Selection Task"
     }
   ],
   "related_identifiers": [
