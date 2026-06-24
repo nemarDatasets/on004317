@@ -1,13 +1,19 @@
 {
-    "Name": "Mood Manipulation and PST, Experiment 2",
-    "ReferencesAndLinks": [
-        "DOI: "
-    ],
-    "Authors": [
-        "James F Cavanagh",
-        "Trevor C J Jackson"
-    ],
-    "License": "CC0",
-    "BIDSVersion": "1.1.1",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004317.v1.0.3"
+  "Name": "Mood Manipulation and PST, Experiment 2",
+  "ReferencesAndLinks": [
+    "DOI: "
+  ],
+  "Authors": [
+    "James F Cavanagh",
+    "Trevor C J Jackson"
+  ],
+  "License": "CC0",
+  "BIDSVersion": "1.1.1",
+  "DatasetDOI": "10.82901/nemar.on004317",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004317.v1.0.3"
+    }
+  ],
+  "Version": "1.0.0"
 }
