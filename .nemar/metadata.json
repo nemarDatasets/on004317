@@ -1,28 +1,80 @@
 {
   "version": "2.0",
-  "dataset_id": "on004317",
-  "source": "openneuro",
-  "source_id": "ds004317",
+  "pipeline_stage": "enriched",
   "title": "Mood Manipulation and PST, Experiment 2",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "James F Cavanagh": {},
     "Trevor C J Jackson": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004317.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004317",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004317",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1126/science.1102941",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004317",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".mp4",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises behavioral and neuroimaging data from a reinforcement learning task administered to 50 healthy control participants under two mood conditions: sad mood manipulation (n=25) and happy mood manipulation (n=25). The task includes training and testing phases with mood induction occurring before each training block. Data were collected between 2019-2021 at the Cognitive Rhythms and Computation Lab at the University of New Mexico.",
+  "methods_description": "Reinforcement learning task implemented in MATLAB with mood manipulation administered prior to each training block. Participants were assigned to either sad or happy mood manipulation conditions (n=25 each). Task structure included distinct training and testing phases.",
+  "keywords": [
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "mood manipulation"
+    },
+    {
+      "term": "decision making"
+    },
+    {
+      "term": "behavioral task"
+    },
+    {
+      "term": "healthy controls"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "mood induction"
+    }
+  ],
+  "source_hash": "20c8a93d747e81a45f14d54240924dd87e51bcec11a22b2e636e937c6dd127e5"
 }
