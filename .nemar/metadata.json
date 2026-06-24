@@ -2,18 +2,44 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Mood Manipulation and PST, Experiment 2",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 50 healthy control participants performing a reinforcement learning task under two mood conditions: sad mood manipulation (n=25) and happy mood manipulation (n=25). The task includes training and testing phases with mood induction occurring before each training block. Data were collected between 2019-2021 at the Cognitive Rhythms and Computation Lab at the University of New Mexico. PST refers to the probabilistic selection task used in this experiment.",
+  "methods_description": "Reinforcement learning task with mood manipulation (sad vs. happy conditions) administered before training blocks. Task adapted from Daw et al. (2006, Science 312:1674-1677, DOI: 10.1126/science.1102941). Mood induction occurred prior to each training block, with separate training and testing sections. Task implemented in MATLAB.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "James F Cavanagh": {},
     "Trevor C J Jackson": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004317.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "mood manipulation"
+    },
+    {
+      "term": "mood induction"
+    },
+    {
+      "term": "decision making"
+    },
+    {
+      "term": "cognitive control"
+    },
+    {
+      "term": "emotion"
+    },
+    {
+      "term": "affect"
+    },
+    {
+      "term": "probabilistic selection task"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004317",
       "identifier_type": "URL",
@@ -33,14 +59,19 @@
       "identifier": "10.18112/openneuro.ds004317",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004317.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "19.6 GB (121 files)"
   ],
   "formats": [
     ".fdt",
@@ -49,32 +80,8 @@
     ".md",
     ".mp4",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises behavioral and neuroimaging data from a reinforcement learning task administered to 50 healthy control participants under two mood conditions: sad mood manipulation (n=25) and happy mood manipulation (n=25). The task includes training and testing phases with mood induction occurring before each training block. Data were collected between 2019-2021 at the Cognitive Rhythms and Computation Lab at the University of New Mexico.",
-  "methods_description": "Reinforcement learning task implemented in MATLAB with mood manipulation administered prior to each training block. Participants were assigned to either sad or happy mood manipulation conditions (n=25 each). Task structure included distinct training and testing phases.",
-  "keywords": [
-    {
-      "term": "reinforcement learning"
-    },
-    {
-      "term": "mood manipulation"
-    },
-    {
-      "term": "decision making"
-    },
-    {
-      "term": "behavioral task"
-    },
-    {
-      "term": "healthy controls"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "mood induction"
-    }
-  ],
-  "source_hash": "20c8a93d747e81a45f14d54240924dd87e51bcec11a22b2e636e937c6dd127e5"
+  "source_hash": "e878799a470d7e5537f9cf06016a0288db810e70347041ab91f541ca6018b0ae"
 }
