@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004317-blue)](https://doi.org/10.82901/nemar.on004317)
+
 Reinforcement learning task with 50 healthy controls (25 after a sad mood manipulation, 25 after a happy mood manipulation)  Task with a training section and testing section.   Task adapted from here: https://doi.org/10.1126/science.1102941.    Mood Manipulation occurs during task before each training block.  Task included in Matlab programming language.   Data collected from 2019-2021 in Cognitive Rhythms and Computation Lab at University of New Mexico.  Check the .xls sheet under code folder for more meta data.  - Trevor CJ Jackson 10/27/2022
