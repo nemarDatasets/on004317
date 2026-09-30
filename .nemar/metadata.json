@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Mood Manipulation and PST, Experiment 2",
-  "description": "This dataset comprises EEG data from a reinforcement learning probabilistic selection task (PST) administered to 50 healthy adult participants, half of whom underwent a sad mood manipulation and half a happy mood manipulation prior to task performance. The task, adapted from a published probabilistic selection paradigm, included training and testing phases with mood induction occurring before each training block. Data were collected between 2019 and 2021 at the Cognitive Rhythms and Computation Lab at the University of New Mexico to study the interaction between mood states and reinforcement learning processes.",
-  "methods_description": "The reinforcement learning task, programmed in MATLAB, consisted of training and testing sections with a mood manipulation procedure administered before each training block, inducing either a sad or happy mood state in participants.",
+  "description": "EEG dataset from a reinforcement learning study of 50 healthy controls, 25 tested after a sad mood manipulation and 25 after a happy mood manipulation. Participants completed a probabilistic selection task with training and testing phases. The task was adapted from a Parkinsonism reinforcement learning paradigm, and the mood manipulation was delivered before each training block.",
+  "methods_description": "Participants performed a Matlab-based reinforcement learning task (probabilistic selection task) with a training section and a testing section. A sad or happy mood manipulation was administered during the task before each training block. Data were collected from 2019 to 2021 at the Cognitive Rhythms and Computation Lab, University of New Mexico.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,7 +15,7 @@
       "term": "EEG"
     },
     {
-      "term": "Reinforcement Learning"
+      "term": "reinforcement learning"
     },
     {
       "term": "mood manipulation"
@@ -29,7 +29,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000339"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "healthy controls"
     }
   ],
   "related_identifiers": [
@@ -64,7 +64,7 @@
     "eeg"
   ],
   "sizes": [
-    "19.6 GB (121 files)"
+    "18.29 GB (121 files)"
   ],
   "formats": [
     ".fdt",
